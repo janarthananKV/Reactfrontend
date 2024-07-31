@@ -3,14 +3,18 @@
   margin: 0 auto;
   padding: 2rem;
   
+  
 }
 .container
 {
     width:550px;
+    background-image: url("./img/bgimage.gif");
+    background-position: center;
     background-color: rgb(251, 251, 251);
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.15);
     border-radius:7px;
     padding: 20px 10px;
+    
 }
 .add
 {
@@ -47,6 +51,7 @@
 {
   display: flex;
   margin-bottom:15px;
+  
 }
 .task
 {
@@ -54,7 +59,7 @@
   padding:20px;
   border-width:2px;
   border-style:solid;
-  border-color:black
+  border-color:black;
 }
 .task::placeholder
 {
